@@ -4,15 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FELIZ NAVIDAD</title>
+    <link rel="stylesheet" href="../Css/Navidad.css">
 </head>
 <body>
 
-    <header>
+    <header id="cabecera">
+
+        <img id="logoCalasanz" src="../Imagenes/logoCalasanz.jpg" alt="">
         
        
 
 
     </header>
+    <nav class="desplegable">
+          
+        
+        <label for="enlaces">Enlaces escolares</label>
+        <select name="enlaces" id="enlaces">
+            <option value="colegio"><a href="https://www.calasanzsalamanca.es/">Enlace al colegio</a></option>
+            <option value="significado belenes"><a href="https://www.youtube.com/watch?v=XbXHZ6AvuSA">Signifidado de la Navidad</a></option>
+            <option value="youtube"><a href="https://www.youtube.com/watch?v=HWxx2DzxIIo">Belenes de Navidad</a></option>
+         </select>
+
+         <form id="login">
+            <div>
+            <label for="user"> Usuario: </label>
+            <input type="text" id="user" required/>
+            </div>
+
+            <div>
+            <label for="password"> Contraseña: </label>
+            <input type="password" id="password" required/>
+            </div>
+            <button type="submit"> Login </button>
+        </form>
+
+
+    </nav>
 
 
 

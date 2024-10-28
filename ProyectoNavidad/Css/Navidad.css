@@ -1,0 +1,20 @@
+.desplegable{
+
+   text-align: center;
+}
+#enlaces{
+
+    margin-bottom: 10rem;
+}
+#cabecera{
+
+    background-color: rgb(86, 112, 228);
+
+    text-align: center;
+}
+#login{
+
+    display: inline-block;
+    margin-left: 5rem;
+    
+}
