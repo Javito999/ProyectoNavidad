@@ -1,3 +1,15 @@
+@media (max-width: 600px) {
+    
+    nav select {
+        display: flex; /* Cambio de diseño a flexbox */
+        flex-direction: column; /* Columna para móviles */
+    }
+    nav div input{
+
+        display: flex;
+        flex-direction: column;
+    }
+}
 .desplegable{
 
    text-align: center;
