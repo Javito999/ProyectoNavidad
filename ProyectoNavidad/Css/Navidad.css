@@ -1,19 +1,25 @@
-@media (max-width: 600px) {
+.desplegableOculto{
+    display: none;
+
+}
+#desplegable{
+
+    text-align: center;
+    display: block;
+ 
+ }
+
+@media (min-width: 600px) {
     
-    nav select {
-        display: flex; /* Cambio de diseño a flexbox */
-        flex-direction: column; /* Columna para móviles */
-    }
-    nav div input{
+    #menuOculto{
 
-        display: flex;
-        flex-direction: column;
+        display: none;
+    }
+    #desplegable{
+        display: block;
     }
 }
-.desplegable{
 
-   text-align: center;
-}
 #enlaces{
 
     margin-bottom: 10rem;
