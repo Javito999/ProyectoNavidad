@@ -9,17 +9,6 @@
  
  }
 
-@media (min-width: 600px) {
-    
-    #menuOculto{
-
-        display: none;
-    }
-    #desplegable{
-        display: block;
-    }
-}
-
 #enlaces{
 
     margin-bottom: 10rem;
@@ -71,7 +60,7 @@ footer{
 }
 footer{
     width: auto;
-    height: 10rem;
+    height: auto;
     text-align: center;
      margin-top: 20rem;
      background-color: rgb(0, 49, 86)
@@ -100,12 +89,108 @@ article img{
     width: 45rem;
     height: 35rem; 
 }
-nav{
-     
-     height: 5rem;
-     background-color: #003156
-     
+nav {
+    background-color: #003156;
+    padding: 10px; 
+    box-sizing: border-box; 
+    width: 100%;
 }
 label{
     color: white;
+}
+#desplegable > label,
+#desplegable > select,
+#desplegable > #usuario,
+#desplegable > #contraseña,
+#desplegable > button {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 1rem;        
+    padding: 5px 10px;     
+    width: auto;            
+}
+
+
+@media (max-width: 600px) {
+    
+    #menuOculto {
+        width: 100%;         
+        font-size: 1rem;     
+    }
+
+    
+    #desplegable > label,
+    #desplegable > select,
+    #desplegable > #usuario,
+    #desplegable > #contraseña,
+    #desplegable > button {
+        font-size: 1rem;     
+        padding: 5px 10px;  
+        width: 100%;        
+        box-sizing: border-box; 
+    }
+
+    #usuario input,
+    #contraseña input {
+        font-size: 1rem;    
+        padding: 10px;      
+        width: 100%;        
+    }
+}
+
+article {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+article img {
+    width: 45rem;      
+    height: 35rem;     
+    max-width: 100%;   
+    height: auto;      
+}
+
+
+@media (max-width: 600px) {
+    article img {
+        width: 100%;    
+        height: auto;   
+    }
+}
+div p{
+
+    font-size: large;
+}
+@media (max-width: 600px) {
+    footer {
+        text-align: left;     
+        padding: 20px;        
+    }
+
+    #contacto, #descripcion {
+        display: block;        
+        margin: 10px 0;        
+        width: 100%;           
+    }
+
+    footer p, footer h4 {
+        font-size: 14px;      
+    }
+}
+@media (max-width: 600px) {
+    #usuario input,
+    #contraseña input {
+        width: 90%; 
+        height: 80%;
+        padding: 12px; 
+        font-size: 1.1rem; 
+        
+    }
+
+    
+    #usuario, #contraseña {
+        margin: 10px 0; 
+        width: 100%; 
+        
+    }
 }
