@@ -86,8 +86,8 @@ article{
 }
 article img{
 
-    width: 45rem;
-    height: 35rem; 
+    width: 35rem;
+    height: 25rem; 
 }
 nav {
     background-color: #003156;
@@ -149,6 +149,11 @@ article img {
     max-width: 100%;   
     height: auto;      
 }
+article div p{
+
+    color: rgb(245, 245, 220);
+
+}
 
 
 @media (max-width: 600px) {
@@ -193,4 +198,9 @@ div p{
         width: 100%; 
         
     }
+}
+body{
+
+    background-image: url(../Imagenes/arbolnavidad.jpg);
+    
 }
