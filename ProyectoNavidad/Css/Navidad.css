@@ -143,15 +143,15 @@ article {
     margin-top: 10rem;
 }
 
-article img {
-    width: 45rem;      
+article div img {
+    width: 30rem;      
     height: 35rem;     
     max-width: 100%;   
     height: auto;      
 }
 article div p{
 
-    color: rgb(245, 245, 220);
+    color: black
 
 }
 
@@ -201,6 +201,9 @@ div p{
 }
 body{
 
-    background-image: url(../Imagenes/arbolnavidad.jpg);
-    
+    background-image: url(../Imagenes/imagenDeFondo2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
